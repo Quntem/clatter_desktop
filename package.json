@@ -1,0 +1,22 @@
+{
+  "name": "quntem-clatter-desktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron index.js",
+    "package": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Clatter Desktop App",
+  "devDependencies": {
+    "electron": "^32.1.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.quntem.clatter"
+  },
+  "metadata": {
+    "name": "Clatter Desktop"
+  }
+}
