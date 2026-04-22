@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "electron index.js",
+    "old": "electron \"index copy.js\"",
     "package": "electron-builder"
   },
   "author": "",
